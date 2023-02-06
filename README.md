@@ -139,7 +139,7 @@ You can find the API to show a cute dog [here](https://nekos.life/api/v2/img/woo
 
 Make a command that displays the same embed as in the Task 1 **but** this time, this embed has a button called "Wave" with the 👋 emoji and a primary color. When you do click on the button, the button becomes unclickable and the button's color becomes red. Then, after clicking on the button, the following embed should be shown:
 
-[!image](https://cdn.discordapp.com/attachments/1020824126660808715/1072197769328087111/image.png)
+![image](https://cdn.discordapp.com/attachments/1020824126660808715/1072197769328087111/image.png)
 
 * Color: #4c00ff
 
@@ -166,9 +166,9 @@ Wew, you reached the last task?? Great work!
 Now that task has many things to take care of, so be extremely careful. Your goal is to implement a Timeout command but:
 * It should send a Direct message to the user that receives a timeout
 * It should be possible to specify a reason or not. If no reason is specified, on the server, it should show the following message: 
-[!image](https://cdn.discordapp.com/attachments/1020824126660808715/1072199686720593950/image.png)
+![image](https://cdn.discordapp.com/attachments/1020824126660808715/1072199686720593950/image.png)
 
-On a user DM message, it should show this message: [!image](https://cdn.discordapp.com/attachments/1023568715771560026/1072200409202036786/image.png)
+On a user DM message, it should show this message: ![image](https://cdn.discordapp.com/attachments/1023568715771560026/1072200409202036786/image.png)
 
 Otherwise, the reason should be displayed.
 
@@ -177,11 +177,11 @@ Otherwise, the reason should be displayed.
 
 This is how it should look like on a server:
 
-[!image](https://cdn.discordapp.com/attachments/1020824126660808715/1072200835909562418/image.png)
+![image](https://cdn.discordapp.com/attachments/1020824126660808715/1072200835909562418/image.png)
 
 This is how it should look like on the user's DM:
 
-[!image](https://cdn.discordapp.com/attachments/1023568715771560026/1072201098464612362/image.png)
+![image](https://cdn.discordapp.com/attachments/1023568715771560026/1072201098464612362/image.png)
 
 ⚠️ **For this task, you need to join the server made by the organizers, since there will be an account which you can ping for timeout tests.**
 
