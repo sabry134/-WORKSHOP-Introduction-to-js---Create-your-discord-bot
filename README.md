@@ -197,7 +197,7 @@ We gave you enough details above, starting from now, we will only give you the p
 
 # Hosting the bot
 
-Copy this code and paste it to visual studio code
+Copy this code and paste it to your terminal.
 
 ```js
 require("dotenv").config();
