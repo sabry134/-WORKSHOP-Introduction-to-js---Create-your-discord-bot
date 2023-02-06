@@ -59,6 +59,11 @@ Okay.. I made it till there, so what should I do?
 * Get started with your first command!
 
 
+# What about the host?
+
+It is enough to host the bot for 30 minutes, you will just be required to use a Captcha
+
+
 # One last thing..
 
 We advise you to take a look at the wiki for the commands: https://nilpointer-software.github.io/bdfd-wiki/bdscript/title.html. Those are very easy functions to use! (Probably easier than malloc!)
@@ -188,7 +193,39 @@ This is how it should look like on the user's DM:
 
 # Part 2 - js
 
-We gave you enough details above, starting from now, we will only give you the parameters one command should take!
+We gave you enough details above, starting from now, we will only give you the parameters one command should take! We will just tell you how to host your bot using js.
+
+# Hosting the bot
+
+Copy this code and paste it to visual studio code
+
+```js
+require("dotenv").config();
+
+const {Client, GatewayIntentBits} = require("discord.js");
+
+const client = new Client({
+    intents: [
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.MessageContent
+    ]
+});
+
+client.on('messageCreate', async function(message){
+    try {
+        if(message.author.bot) return;
+        console.log(message.content);
+    } catch (error) {
+        console.log(error);
+    }
+});
+
+client.login(process.env.DISCORD_KEY);
+```
+
+* To compile your code, run `node [file name]`, in our case, it is index.js
+
 
 # Task 10
 
