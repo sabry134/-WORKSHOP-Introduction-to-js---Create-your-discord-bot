@@ -21,3 +21,24 @@ Next up, you will have to invite your bot inside a Discord server. You have two 
 
 # How do I invite my bot?
 
+* Click on "OAuth2"
+* Click on "URL Generator"
+
+You should see a page like this: 
+
+![image](https://user-images.githubusercontent.com/59388966/217024473-00138027-2462-42b2-b030-85cfd8eb5768.png)
+
+* Click on "bot"
+* Select the permissions you need. N.B: We advise you to take the following permissions:
+    * - Moderate Member
+    * - Manage Channels
+    * - Manage Messages
+    * - Change Nicknames
+    * - Manage Roles
+    * - Manage Webhooks
+
+* Copy the generated URL and click on it. This way you will be able to invite your bot!
+
+# Great..I reached that step, what's next?
+
+Wow..you're already there! Congratulations, I guess you can get started with the part one. 
