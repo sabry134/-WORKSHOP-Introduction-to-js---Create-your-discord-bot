@@ -85,7 +85,9 @@ Make a command that can delete any link that starts with "http" (it also include
 * on
 * off
 
-You can find an example [here](https://youtu.be/4J9tTOs_GgI).
+You can find an example below:
+
+https://user-images.githubusercontent.com/59388966/217035496-67cc359f-fa82-4fb3-833d-24b243e18f3c.mp4
 
 # Task 3 - Assign a role/Remove a role
 
@@ -160,3 +162,45 @@ It must be possible to buy those items through "Buy" buttons, one for each item.
 `Command Name: !timeout`
 
 Wew, you reached the last task?? Great work! 
+
+Now that task has many things to take care of, so be extremely careful. Your goal is to implement a Timeout command but:
+* It should send a Direct message to the user that receives a timeout
+* It should be possible to specify a reason or not. If no reason is specified, on the server, it should show the following message: 
+[!image](https://cdn.discordapp.com/attachments/1020824126660808715/1072199686720593950/image.png)
+
+On a user DM message, it should show this message: [!image](https://cdn.discordapp.com/attachments/1023568715771560026/1072200409202036786/image.png)
+
+Otherwise, the reason should be displayed.
+
+
+⚠️ The timeout duration, the server name and the reason should be your own duration, your own server name, and your own reason, for what was specified on the server and the data you parsed!
+
+This is how it should look like on a server:
+
+[!image](https://cdn.discordapp.com/attachments/1020824126660808715/1072200835909562418/image.png)
+
+This is how it should look like on the user's DM:
+
+[!image](https://cdn.discordapp.com/attachments/1023568715771560026/1072201098464612362/image.png)
+
+⚠️ **For this task, you need to join the server made by the organizers, since there will be an account which you can ping for timeout tests.**
+
+
+# Part 2 - js
+
+We gave you enough details above, starting from now, we will only give you the parameters one command should take!
+
+# Task 10
+
+`Command Name: /moderation_lock (Channel)`
+
+Write a code in **Js** in which you will have to take a channel as a parameter. The command should lock the channel given as a paramater. If no channel is specified, it locks the channel in which the code was executed.
+
+# Task 11
+
+`Command Name: /play [Music]`
+
+Write a code in **Js** in which you will have to make the bot join the Voice channel you're in and play the music you selected.
+
+It should handld the error cases.
+
