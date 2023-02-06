@@ -197,7 +197,11 @@ We gave you enough details above, starting from now, we will only give you the p
 
 # Hosting the bot
 
-Copy this code and paste it to your terminal.
+* Run the command `npm init -y`
+* Run the command `npm i discord.js dotenv`
+* Create a .env file.
+* Create a new variable called "DISCORD_KEY" and assign it the value of your bot token.
+* Copy this code and paste it to your terminal.
 
 ```js
 require("dotenv").config();
