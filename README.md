@@ -11,6 +11,9 @@ Welcome to our Workshop! Your goal will be to create a Discord bot with js! For 
 * Click on "Bot"
 * Click on "Add Bot"
 
+
+
+
 Once you did it, you should see an interface like this: 
 
 ![image](https://user-images.githubusercontent.com/59388966/217023315-e5fd209e-e291-43b3-8df3-48bacc9b34ca.png)
@@ -18,6 +21,10 @@ Once you did it, you should see an interface like this:
 ⚠️ It is important that you do not share your bot's token with anyone.
 
 Next up, you will have to invite your bot inside a Discord server. You have two choices, either you do create your own server or you do join a server that was made by the organizers for the bot tests purposes. If you do join the server made by the organizers, feel free to ask for your own category with your own channels, the organizers will gladly do so.
+
+Additionally, in "Bot" select those 3 options: Presence Intent, Server Intent, Message Content intent.
+
+⚠️ If you do not do this, your bot won't work as in it won't reply to commands!
 
 # How do I invite my bot?
 
@@ -49,6 +56,7 @@ Once this application is installed, follow those steps:
 * Login with your account.
 * Click on "New bot".
 * Write your bot's name and your bot's token. It is available on the "Bot" section of the Discord Developers Portal.
+* Host your bot, click on "Host for 30 minutes", then click on "Host for 140 minutes", you will need to watch a small advertisement to get the additional time, but after this, you won't need to host it anymore since 2h are enough.
 * That's it! You can delete the application if you wish to.
 
 # Getting started with commands.
