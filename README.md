@@ -253,3 +253,7 @@ Write a code in **Js** in which you will have to make the bot join the Voice cha
 
 It should handld the error cases.
 
+
+# Solutions
+
+(Solutions)[https://www.youtube.com/watch?v=xvFZjo5PgG0]
