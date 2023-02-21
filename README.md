@@ -256,4 +256,4 @@ It should handld the error cases.
 
 # Solutions
 
-(Solutions)[https://www.youtube.com/watch?v=xvFZjo5PgG0]
+[Solutions](https://www.youtube.com/watch?v=xvFZjo5PgG0)
